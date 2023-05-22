@@ -94,7 +94,7 @@ public class FormativaLogicaProgramacao {
         System.out.println("Os números pares do vetor são:");
         for (int i = 0; i < vetor.length; i++) {
             if (vetor[i] % 2 == 0) {
-                System.out.print(vetor[i] + ", ");
+                System.out.print("Vetor" + "["+i + "]" + "=" + vetor[i] +" ");
             }
             if ((i + 1) % 2 == 0) {
                 cImpar++; /*
@@ -113,7 +113,7 @@ public class FormativaLogicaProgramacao {
         System.out.println("Os números ímpares do vetor são:");
         for (int j = 0; j < vetor.length; j++) {
             if (vetor[j] % 2 != 0) {
-                System.out.print(vetor[j] + " ");
+                System.out.print("Vetor" + "["+j+"]" + "=" + vetor[j] + " ");
             }
         }
         System.out.println(" ");
